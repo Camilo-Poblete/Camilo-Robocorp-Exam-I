@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220930 21:20:35.844" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220930 23:08:48.108" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\56946\.vscode\extensions\robocorp.robotframework-lsp-1.2.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20220930 21:20:35.875" endtime="20220930 21:20:38.283"/>
+<kw name="Open the Intranet website">
+<msg timestamp="20220930 23:08:48.885" level="FAIL">No keyword with name 'Open the Intranet website' found.</msg>
+<status status="FAIL" starttime="20220930 23:08:48.885" endtime="20220930 23:08:48.885"/>
 </kw>
-<status status="PASS" starttime="20220930 21:20:35.875" endtime="20220930 21:20:38.284"/>
+<kw name="Log in">
+<status status="NOT RUN" starttime="20220930 23:08:48.886" endtime="20220930 23:08:48.887"/>
+</kw>
+<kw name="Downloas the excel file">
+<status status="NOT RUN" starttime="20220930 23:08:48.888" endtime="20220930 23:08:48.888"/>
+</kw>
+<kw name="Fill the form using the data from the excel file">
+<status status="NOT RUN" starttime="20220930 23:08:48.889" endtime="20220930 23:08:48.889"/>
+</kw>
+<kw name="Collect the results">
+<status status="NOT RUN" starttime="20220930 23:08:48.890" endtime="20220930 23:08:48.890"/>
+</kw>
+<kw name="Export the table as a PDF">
+<status status="NOT RUN" starttime="20220930 23:08:48.892" endtime="20220930 23:08:48.892"/>
+</kw>
+<status status="PASS" starttime="20220930 23:08:48.148" endtime="20220930 23:09:34.448"/>
+</kw>
+<status status="PASS" starttime="20220930 23:08:48.148" endtime="20220930 23:09:34.449"/>
 </test>
-<status status="PASS" starttime="20220930 21:20:35.844" endtime="20220930 21:20:38.284"/>
+<status status="PASS" starttime="20220930 23:08:48.110" endtime="20220930 23:09:34.450"/>
 </suite>
 <statistics>
 <total>
